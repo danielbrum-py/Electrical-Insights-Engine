@@ -149,7 +149,7 @@ A seguir os graficos analisados
   plt.close(fig5)
 
   # Tabela analisada
-  fig_table = plt.figure(figsize=(11, 8)) # Set to portrait
+  fig_table = plt.figure(figsize=(11, 8))
   ax = fig_table.add_subplot(111)
   ax.axis('off')
   table = ax.table(cellText=df_sobrecarga.values, colLabels=df_sobrecarga.columns, loc='center')
